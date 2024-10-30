@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+}
+.bola{
+    display: flex;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: rgb(153, 93, 181);
+    width: 240px;
+    height: 240px;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 70px;
+}
+.nevara{
+    box-sizing: border-box;
+border: 1px solid #000000;
+border-radius: 8px;
+background-color: #f7941f;
+width: 50px;
+height: 50px;
+
+}
+.bola:nth-child(1){
+    gap: 8px;
+}
+.bola:nth-child(2){
+    flex-direction: column;
+    gap: 8px;
+}
+.bola:nth-child(3){
+   gap: 6px;
+    flex-wrap: wrap
+}
+.bola:nth-child(4){
+    justify-content: space-between;
+}
+.bola:nth-child(5){
+ gap: 8px;
+}
+.bola:nth-child(6){
+    justify-content: right;
+    gap: 8px;
+}
+.bola:nth-child(6){
+    justify-content: center;
+    gap: 8px;
+}
+.bola:nth-child(7){
+    justify-content: center;
+    gap: 8px;
+}
+.bola:nth-child(8){
+    justify-content: space-between;
+}
+.bola:nth-child(9){
+    gap: 8px;
+}
+.bola:nth-child(10){
+    gap: 8px;
+    padding-top: 182px;
+}
+.bola:nth-child(11){
+    gap: 8px;
+    padding-top: 95px;
+}
+.bola:nth-child(12){
+    justify-content: space-between;
+}
+.fas{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 124px 
+}
